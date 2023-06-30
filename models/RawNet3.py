@@ -141,7 +141,7 @@ class RawNet3(nn.Module):
 
         if self.out_bn:
             x = self.bn6(x)
-        # x = self.new_component(x)
+        x = self.new_component(x)
         return x
 
 
